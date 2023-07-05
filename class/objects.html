@@ -43,6 +43,34 @@
 
         const _id = '9399'
 
+        const boyfriend = {
+            isGymrat: true,
+            isWeeb: true,
+            hasDaddyIssues: true,
+            favoriteAnime: "Evangelion",
+            name: "Francesco",
+            gender: "male",
+            nailColor: "black",
+            tinderBio: "Aliado",
+            personality: "narcissistic",
+            price: 200,
+        }
+
+        const target = 6
+        const numbers = [1, 2, 3, 5]
+        const counter = {
+            1: true,
+        }
+
+        for (let i = 1; i < numbers.length; i++) {
+            if (counter[target - numbers[i]]) {
+                console.log("BIEEEN!!!!", [target - numbers[i], numbers[i]])
+                break
+            }
+            counter[numbers[i]] = true
+        }
+
+
 //         console.log(_id)
 //         console.log(keys)
 //         console.log(values)
